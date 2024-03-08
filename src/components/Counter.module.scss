@@ -1,0 +1,31 @@
+.counter {
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  input {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: blueviolet;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  button {
+    border-radius: 6px;
+    transition: all 0.1s ease 0s;
+    background-color: #cecece;
+    padding: 8px 14px;
+    font-size: 1.1rem;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+
+    &:hover {
+      filter: brightness(0.92);
+    }
+  }
+}
