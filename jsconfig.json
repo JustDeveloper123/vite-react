@@ -6,7 +6,9 @@
       "@components": ["src/components/*"],
       "@assets": ["src/assets/*"],
       "@utils": ["src/utils/*"],
-      "@ui": ["src/components/ui/*"]
+      "@ui": ["src/components/ui/*"],
+      "@store": ["src/store/*"],
+      "@hooks": ["src/hooks/*"]
     }
   }
 }
