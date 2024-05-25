@@ -1,13 +1,16 @@
+import { Outlet } from 'react-router-dom';
 import ReactLogo from '/webp/react.webp';
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <>
       <header>
         <h1>{import.meta.env.APP_TITLE}</h1>
       </header>
 
-      <main>{children}</main>
+      <main>
+        <Outlet />
+      </main>
 
       <footer>
         <img src={ReactLogo} alt="ReactJS logo" height="100px" />
