@@ -1,0 +1,50 @@
+@import '../assets/styles/mixins.scss';
+
+.button {
+  position: relative;
+  background-color: var(--color-primary);
+  display: inline-flex;
+  height: rem(48);
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: rem(6);
+  padding-left: rem(24);
+  padding-right: rem(24);
+  font-weight: 500;
+  color: var(--color-secondary);
+  transition:
+    transform 0.2s ease-in-out,
+    border-color 0.5s ease,
+    background-color 0.5s ease;
+
+  &:hover {
+    transform: scale(1.1);
+
+    .button__background {
+      transition: all 1s;
+      transform: skew(-12deg) translateX(100%);
+    }
+  }
+
+  .button__background {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    transform: skew(-12deg) translateX(-100%);
+
+    .button__line {
+      position: relative;
+      height: 100%;
+      width: rem(32);
+    }
+  }
+}
+
+.button_rounded {
+  border-radius: 9999px; // rounded-full
+  border: rem(1) solid var(--color-accent);
+}

@@ -1,0 +1,8 @@
+@import '../assets/styles/mixins.scss';
+
+.title {
+  padding: rem(16) rem(8);
+  text-align: center;
+  font-size: rem(36);
+  font-weight: bold;
+}

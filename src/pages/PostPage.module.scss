@@ -1,0 +1,14 @@
+@import '../assets/styles/mixins.scss';
+
+.post {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: rem(28) rem(16);
+}
+
+.button {
+  max-width: rem(200);
+}
