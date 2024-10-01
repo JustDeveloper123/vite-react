@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { ROUTES } from '../constants/router-routes';
 import Button from '../ui/Button';
-import Title from '../ui/TItle';
+import Title from '../ui/Title';
 import classes from './PostPage.module.scss';
 
 const PostPage = () => {

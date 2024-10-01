@@ -1,4 +1,4 @@
-# Starter vite build on React & Tailwind
+# Starter vite build on React
 
 Also includes React Router v6.23+, React Redux Toolkit.
 
@@ -25,4 +25,3 @@ npx degit JustDeveloper123/vite-react
 - to control routes open /src/constants/router-routes.js
 - changing theme colors in /src/assets/styles/themes.scss
 - changing breakpoints & screens in /src/assets/styles/screens.scss
-- open tailwind config to see more custom style settings & approaches
