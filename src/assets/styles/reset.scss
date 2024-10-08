@@ -33,3 +33,13 @@ h6 {
   font-weight: inherit;
   font-size: inherit;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+a:focus-visible,
+input:focus-visible,
+button:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+}
